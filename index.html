@@ -187,30 +187,30 @@
 				<section data-background-color="#ffeb7c">
 					<div style="background-color: #282A36; border: 1px solid grey;  box-shadow: 22px 22px 2px 1px #E2486C;">
 						<pre style="width: 100%;"><code data-line-numbers="1-2|3-5|6-9|10-17|18-20|21-23">  let jsonData = pm.response.json();
-	console.log('exemple', jsonData);
-	// ============================================
-	//  Stocker et utiliser une valeur / variable
-	// ============================================
-	// A privilégier
-	pm.collectionVariables.set('MaVariableCustomDeCollection', jsonData.value);
-	pm.collectionVariables.get('MaVariableCustomDeCollection');
+		console.log('exemple', jsonData);
+		// ============================================
+		//  Stocker et utiliser une valeur / variable
+		// ============================================
+		// A privilégier
+		pm.collectionVariables.set('MaVariableCustomDeCollection', jsonData.value);
+		pm.collectionVariables.get('MaVariableCustomDeCollection');
 
-	//Ou bien
-	pm.environment.set('MaVariableCustomdEnvironnement',jsonData.value);
-	pm.environment.get('MaVariableCustomdEnvironnement');
+		//Ou bien
+		pm.environment.set('MaVariableCustomdEnvironnement',jsonData.value);
+		pm.environment.get('MaVariableCustomdEnvironnement');
 
-	// A éviter
-	// pm.globals.set('MaVariableGlobalCustom', jsonData.value);
-	// pm.globals.get('MaVariableGlobalCustom');
+		// A éviter
+		// pm.globals.set('MaVariableGlobalCustom', jsonData.value);
+		// pm.globals.get('MaVariableGlobalCustom');
 
-	// =================================================
-	//     Ajouter une variable dans le nom du test
-	// =================================================
-	pm.test("Status code is 200 for myVariableCustom " + pm.collectionVariables.get("MaVariableDeTest"), function () {
-			pm.response.to.have.status(200);
-	});
+		// =================================================
+		//     Ajouter une variable dans le nom du test
+		// =================================================
+		pm.test("Status code is 200 for myVariableCustom " + pm.collectionVariables.get("MaVariableDeTest"), function () {
+				pm.response.to.have.status(200);
+		});
 
-								</code></pre>
+									</code></pre>
 					</div>
 					<aside class="notes">
 						📝 SOURIRE ! <br>
@@ -307,7 +307,147 @@
 				</section>
 			</section>
 			</section>
-
+			<section data-auto-animate data-background-color="#efefef">
+				<div style="display: flex;">
+					<div
+						style="width: 40%; height: 80%; background-color:#FFFFFF; border: 1px solid grey; border-radius: 5%; box-shadow: 22px 22px 2px 1px #f92263;">
+						<img src="./examples/assets/Papilusion.png" alt="">
+					</div>
+					<div style="width: 60%;">
+						<h3
+							style="padding-left: 10%; text-align: left; font-family: 'Oswald', sans-serif; text-decoration: underline overline #f92263;">
+							ETAPE 3</h3>
+						<p style="padding-left: 10%; text-align: left; font-family: 'Oswald', sans-serif;">Créer pour moi... </p>
+					</div>
+				</div>
+				<aside class="notes">
+					📝 Etape 3 de mon évolution <br>
+					On part vers un joli pokemon papillusion <br>
+					<br>D'abord j'ai créé pour moi <br>
+					Pour synthétiser mes connaissances <br>
+					j'ai pu faire le point
+				</aside>
+			</section>
+			<section data-auto-animate data-background-color="#efefef">
+				<div style="display: flex;">
+					<div
+						style="width: 40%; height: 80%; background-color:#FFFFFF; border: 1px solid grey; border-radius: 5%; box-shadow: 22px 22px 2px 1px #f92263;">
+						<img src="./examples/assets/Papilusion.png" alt="">
+					</div>
+					<div style="width: 60%;">
+						<h3
+							style="padding-left: 10%; text-align: left; font-family: 'Oswald', sans-serif; text-decoration: underline overline #f92263;">
+							ETAPE 3</h3>
+						<p style="padding-left: 10%; text-align: left; font-family: 'Oswald', sans-serif;">Créer pour moi... </p>
+						<p style="font-family: 'Oswald', sans-serif;">mais partager à tous</p>
+					</div>
+				</div>
+				<aside class="notes">
+					Vu que je travaille maintenant chez Dailymotion <br>
+					C'est naturellement que je me suis tournée vers la vidéo <br>
+					J'ai moi même beauuucoup appris en regardant des tuto de code <br>
+					C'est à mon tour de donner de mes connaissances <br>
+					Je me sens pas tout à fait légitime à donner des conf <br>
+					Alors pour le moment j'essaye <br>
+					les autres types d'action communautaire <br>
+				</aside>
+			</section>
+			<!-- </section> -->
+			<section>
+				<section data-background-color="lightpink">
+					<p>Je réalise une première vidéo ✅</p>
+					<aside class="notes">
+						📝 SOURIRE !
+						ça y est !! <br>
+						Alors transition et montage à perfectionner <br>
+						J'avais un rhume <br>
+						Mais j'ai du contenu pour au moins 15 tutos en avance <br>
+						J'ai ma structure <br>
+						ma technique <br>
+						Et surtout encore plus d'envie
+					</aside>
+				</section>
+				<section data-background-color="lightpink">
+					<p>J'écris un article medium <span style="color: green;">➚</span></p>
+					<aside class="notes">
+						📝 SOURIRE !
+						<br> ça c'est en devenir <br>
+						Je teste plusieurs actions communautaires <br>
+						Ecrire des articles techniques en fait partie
+					</aside>
+				</section>
+				<section data-background-color="lightpink">
+					<p>Je diffuse sur les réseaux <span style="color: green;">➚</span></p>
+					<aside class="notes">
+						📝 SOURIRE ! <br>
+						A venir <br>
+						Pour le moment vous allez avoir l'exclu
+						<br> du partage de la vidéo qui n'est pas
+						<br> encore déployé sur les plateformes
+					</aside>
+				</section>
+				<section data-background-color="lightpink">
+					<p>
+						Et maintenant je réitère 🔄
+					<aside class="notes">
+						📝 SOURIRE ! <br>
+						Plein plein d'idées <br>
+						Beaucoup d'envie <br>
+					</aside>
+					</p>
+				</section>
+				<section data-background-image="./examples/assets/background-thumbnail.jpg">
+					<div
+						style="margin-left: 10%; padding: 2%; width: 78%;background-color:#FFF; box-shadow: 22px 22px 2px 1px lightpink; border: 1px solid grey; ">
+						<ul style="font-size: 32px; list-style: square;">
+							<li>Swapi</li>
+							<li>Times magazine</li>
+							<li>rick et morty</li>
+							<li>spotify</li>
+							<li>pokemon</li>
+							<li>api adresse</li>
+							<li>api ville vélo</li>
+							<li>api météo</li>
+							<li>Api fooding</li>
+							<li>api github</li>
+						</ul>
+					</div>
+					<aside class="notes">
+						📝 SOURIRE ! <br>
+						Petit aperçu des api publiques <br>
+						Et il en manque <br>
+						Plus ou moins sérieux <br>
+						L'api adresse de geoloc du gouvernement français <br>
+						Une api meteo <br>
+						etc etc <br>
+					</aside>
+				</section>
+				<section data-background-image="./examples/assets/background-thumbnail.jpg">
+					<div
+						style="margin-left: 10%; padding: 2%; width: 78%;background-color:#FFF; box-shadow: 22px 22px 2px 1px lightpink; border: 1px solid grey; ">
+						<ul style="font-size: 32px; list-style: square;">
+							<li>Les variables</li>
+							<li>Mock server</li>
+							<li>Les méthodes javascript</li>
+							<li>Librairies externes</li>
+							<li>Authorization</li>
+							<li>Cookies</li>
+							<li>Tests e2e par API</li>
+							<li>Sanity check</li>
+							<li>GraphQl API</li>
+							<li>etc. etc.</li>
+						</ul>
+					</div>
+					<aside class="notes">
+						📝 SOURIRE !
+						<br> Pour pratiquer toutes ces notions là <br>
+						Chacun peut y trouver son compte <br>
+						De l'intermédiare a du très difficile <br>
+						pour permettre une progression
+					</aside>
+				</section>
+			</section>
+			</section>
 		</div>
 	</div>
 
